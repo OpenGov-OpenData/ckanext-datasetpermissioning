@@ -7,4 +7,5 @@ Add a this field to your dataset schema:
   label: View Permissions
   preset: multiple_select
   choices_helper: nonsysadmin_user_choices
+  display_snippet: null
 ```
