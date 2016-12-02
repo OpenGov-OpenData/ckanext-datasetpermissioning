@@ -1,3 +1,13 @@
+# ckanext-datasetpermissioning
+
+Requires ckanext-scheming
+
+Config settings:
+
+```ini
+ckan.plugins = datasetpermissioning
+```
+
 
 Add a this field to your dataset schema:
 
