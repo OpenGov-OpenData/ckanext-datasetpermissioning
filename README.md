@@ -1,6 +1,14 @@
 # ckanext-datasetpermissioning
 
-Requires ckanext-scheming
+This CKAN extension allows private datasets to be viewed by an extra
+set of users that may be selected when creating the dataset.
+
+It provides a scheming choices helper that returns a list of
+non-syadmin users (sysadmin users can see all private datasets anyway)
+to give read access.
+
+Requires ckanext-scheming and the IPermissionLabels feature in recent
+version of CKAN.
 
 Config settings:
 

@@ -1,3 +1,5 @@
+import json
+
 from ckanext.datasetpermissioning import helpers
 
 from ckan.plugins import (SingletonPlugin, implements, ITemplateHelpers,
