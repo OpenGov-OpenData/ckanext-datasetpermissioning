@@ -1,5 +1,5 @@
 
 *.pyc
-ckanext_bostontheme.egg-info/*
+ckanext_datasetpermissioning.egg-info/*
 build/*
 dist/*
